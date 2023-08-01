@@ -4,6 +4,9 @@
 
 #Date: August 2nd, 2020
 
+
+
+
 This assignment deals with Files systems, namely the Microsoft's FAT.
 It assumes the working directories on the system running it are UNIX based.
 This assignment consists of 4 programs:
@@ -11,6 +14,7 @@ This assignment consists of 4 programs:
 - disklist
 - diskget
 - diskput
+
 
 diskinfo reads the supplied file system and display information about it.
 For example:
@@ -40,6 +44,7 @@ For example:
   
   """
 
+
 disklist lists the contents of the root directory in the supplied file system
 For example:
   """
@@ -55,8 +60,22 @@ For example:
   F 38512 ls_mac 2016/03/02 12:21:42
   
   """
+
+  Where the first column denotes either a file or directory.
+
+  The second column tells file size.
+
+  The third column tells file name.
+
+  The fourth column tells modify date.
+
+  
+
   
 
 diskget retieves the given file from the file system
+
+
+
 
 diskput puts the given file onto the file system
