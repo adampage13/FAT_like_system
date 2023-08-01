@@ -3,7 +3,7 @@
 // Date: August 1: 2020
 //
 // FAT-like File system
-// This program will display the information about the supplied file system ie "disc.img".
+// This program will display the information about the supplied file system ie "disk.img".
 // It reads the file system super block to display in the FAT
 // Arguments: [file system]
 //   file system: a ".img" file system file
